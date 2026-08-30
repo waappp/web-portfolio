@@ -31,6 +31,7 @@ const projects: Record<string, Project> = {
     year: '2025',
     role: 'UI/UX Designer',
     tools: ['Figma', 'UI/UX Design',],
+    liveUrl: 'https://www.figma.com/design/JBsXiuc3m90OxTZPiepWwm/Magang-Wafa?node-id=175-42&t=ROCytZV7zQQ3KiVh-1',
 
     problem:
       'Healthcare applications can become difficult to navigate when users are presented with too much information and complex interactions.',
@@ -47,9 +48,7 @@ const projects: Record<string, Project> = {
     ],
 
     gallery: [
-      '/images/projects/ceptioncare/01.png',
-      '/images/projects/ceptioncare/02.png',
-      '/images/projects/ceptioncare/03.png',
+      '/images/projects/ceptioncare/ceptioncare.png',
     ],
   },
 
@@ -63,6 +62,7 @@ const projects: Record<string, Project> = {
   year: '2025',
   role: 'UI/UX Designer',
   tools: ['Figma', 'UI/UX Design', 'Prototyping'],
+  liveUrl: 'https://www.figma.com/design/icb5745HGl0cq99KkQfXxz/Magang?node-id=404-67&t=tWYsNbFQwSitOlnR-1',
 
   problem:
     'Creative agencies need a digital presence that can communicate their visual identity while presenting their services and portfolio in a clear and engaging way.',
@@ -79,9 +79,7 @@ const projects: Record<string, Project> = {
   ],
 
   gallery: [
-    '/images/projects/creative-agency/01.png',
-    '/images/projects/creative-agency/02.png',
-    '/images/projects/creative-agency/03.png',
+    '/images/projects/sparkvibe/sparkvibe.png',
   ],
 },
 
@@ -95,7 +93,7 @@ const projects: Record<string, Project> = {
     year: '2025',
     role: 'UI/UX Designer & Frontend Developer',
     tools: ['Figma', 'UI/UX Design', 'Prototyping'],
-	liveUrl: 'https://www.figma.com/design/icb5745HGl0cq99KkQfXxz/Magang?node-id=0-1&t=KyA3L1dQTZEHGKyf-1',
+  	liveUrl: 'https://www.figma.com/design/icb5745HGl0cq99KkQfXxz/Magang?node-id=0-1&t=KyA3L1dQTZEHGKyf-1',
 
     problem:
       'Furniture e-commerce websites often contain large amounts of product information, making it important to maintain a clear browsing experience.',
@@ -112,9 +110,7 @@ const projects: Record<string, Project> = {
     ],
 
     gallery: [
-      '/images/projects/furnistore/01.png',
-      '/images/projects/furnistore/02.png',
-      '/images/projects/furnistore/03.png',
+      '/images/projects/furnistore/furnistore.png',
     ],
   },
 
@@ -128,6 +124,7 @@ const projects: Record<string, Project> = {
     year: '2025',
     role: 'UI/UX Designer',
     tools: ['Figma', 'UI/UX Design'],
+    liveUrl: 'https://www.figma.com/design/JBsXiuc3m90OxTZPiepWwm/Magang-Wafa?node-id=352-2&t=ROCytZV7zQQ3KiVh-1',
 
     problem:
       'Sports websites need to communicate energy and information quickly while maintaining a strong visual identity.',
@@ -144,14 +141,12 @@ const projects: Record<string, Project> = {
     ],
 
     gallery: [
-      '/images/projects/tackex/01.png',
-      '/images/projects/tackex/02.png',
-      '/images/projects/tackex/03.png',
+      '/images/projects/tacklex/tacklex.png',
     ],
   },
 
-  aruna: {
-    title: 'Aruna Residence',
+  omahmu: {
+    title: 'Omahmu Residence',
     category: 'UI Design',
     subtitle: 'A modern real estate website designed to simplify property discovery and create a seamless browsing experience.',
     description:
@@ -160,6 +155,7 @@ const projects: Record<string, Project> = {
     year: '2025',
     role: 'UI/UX Designer',
     tools: ['Figma', 'UI/UX Design'],
+    liveUrl: 'https://www.figma.com/design/JBsXiuc3m90OxTZPiepWwm/Magang-Wafa?node-id=0-1&t=ROCytZV7zQQ3KiVh-1',
 
     problem:
       'Real estate websites often contain a large amount of property information, making it challenging for users to quickly discover properties that match their needs.',
@@ -176,9 +172,7 @@ const projects: Record<string, Project> = {
     ],
 
     gallery: [
-      '/images/projects/tackex/01.png',
-      '/images/projects/tackex/02.png',
-      '/images/projects/tackex/03.png',
+      '/images/projects/omahmu/omahmu.png',
     ],
   },
 
@@ -192,7 +186,7 @@ const projects: Record<string, Project> = {
     year: '2025',
     role: 'UI/UX Designer',
     tools: ['Figma', 'UI/UX Design'],
-	liveUrl: 'https://www.figma.com/design/icb5745HGl0cq99KkQfXxz/Magang?node-id=217-67&t=flPgzi1GQEk2cMqz-1',
+	  liveUrl: 'https://www.figma.com/design/icb5745HGl0cq99KkQfXxz/Magang?node-id=217-67&t=flPgzi1GQEk2cMqz-1',
 
     problem:
       'Sneaker e-commerce platforms need to balance strong visual branding with an intuitive shopping experience, allowing users to discover products quickly without losing the excitement of the brand.',
@@ -209,9 +203,7 @@ const projects: Record<string, Project> = {
     ],
 
     gallery: [
-      '/images/projects/tackex/01.png',
-      '/images/projects/tackex/02.png',
-      '/images/projects/tackex/03.png',
+      '/images/projects/hypekicks/hypekicks.png',
     ],
   },
 
@@ -225,8 +217,7 @@ const projects: Record<string, Project> = {
     year: '2025',
     role: 'UI/UX Designer & Frontend Developer',
     tools: ['Figma', 'Nuxt', 'Tailwind CSS'],
-
-	liveUrl: 'https://furnistore-sepia.vercel.app/',
+	 liveUrl: 'https://furnistore-sepia.vercel.app/',
 
     problem:
       'Furniture e-commerce websites often contain large amounts of product information, making it important to maintain a clear browsing experience.',
@@ -243,9 +234,7 @@ const projects: Record<string, Project> = {
     ],
 
     gallery: [
-      '/images/projects/furnistore/01.png',
-      '/images/projects/furnistore/02.png',
-      '/images/projects/furnistore/03.png',
+      '/images/projects/furnistore/furnistore.png',
     ],
   },
 }

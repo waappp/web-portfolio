@@ -56,12 +56,12 @@ const projects: Project[] = [
   },
 
   {
-    title: 'Aruna Residence',
+    title: 'Omahmu Residence',
     category: 'UI Design',
     description:
       'A modern real estate website designed to simplify property discovery and create a seamless browsing experience.',
     image: '/images/portfolio/estate.png',
-    slug: 'aruna',
+    slug: 'omahmu',
     tools: ['Figma', 'UI/UX'],
   },
 
