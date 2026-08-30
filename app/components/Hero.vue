@@ -59,10 +59,10 @@
 
           <!-- More -->
           <a
-            href="#about"
+            href="#portfolio"
             class="rounded-md border border-primary/70 px-6 py-3 text-sm font-medium text-primary transition-all duration-300 hover:-translate-y-1 hover:border-accent hover:text-accent"
           >
-            More
+            View My Work
           </a>
 
         </div>

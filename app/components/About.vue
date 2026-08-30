@@ -11,7 +11,7 @@
       <!-- LEFT : PROFILE IMAGE -->
       <!-- ========================= -->
       <div
-        class="relative flex min-h-[400px] items-center justify-center sm:min-h-[450px] lg:min-h-[500px]"
+        class="relative flex min-h-[400px] items-center justify-center pt-4 sm:min-h-[450px] sm:pt-2 lg:min-h-[500px] lg:pt-0"
       >
 
         <!-- Decorative Circle -->
@@ -28,7 +28,7 @@
         <img
           src="/images/profile/wafa.png"
           alt="Hukama Niamul Wafa"
-          class="relative z-10 h-[370px] w-auto object-contain sm:h-[430px] lg:h-[460px]"
+          class="relative z-10 -translate-y-2 h-[370px] w-auto object-contain sm:h-[430px] lg:h-[460px]"
         />
 
       </div>
