@@ -50,8 +50,8 @@
 
           <!-- Download CV -->
           <a
-            href="/cv.pdf"
-            download
+            href="/CV.pdf"
+            download="CV.pdf"
             class="rounded-md bg-accent px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-1 hover:bg-accent-light"
           >
             Download CV
