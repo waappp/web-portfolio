@@ -84,6 +84,15 @@ const projects: Project[] = [
     slug: 'furnistoreweb',
     tools: ['Nuxt', 'Tailwind CSS'],
   },
+  {
+    title: 'HypeKicks Website',
+    category: 'Website',
+    description:
+      'A warm, product-led storefront for browsing footwear with ease.',
+    image: '/images/portfolio/hypekicks.png',
+    slug: 'hypekicksweb',
+    tools: ['Nuxt', 'Tailwind CSS'],
+  }
 ]
 
 const filteredProjects = computed(() => {

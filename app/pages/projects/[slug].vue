@@ -216,7 +216,7 @@ const projects: Record<string, Project> = {
     image: '/images/portfolio/furnistore.png',
     year: '2025',
     role: 'UI/UX Designer & Frontend Developer',
-    tools: ['Figma', 'Nuxt', 'Tailwind CSS'],
+    tools: ['VScode', 'Nuxt', 'Tailwind CSS'],
 	 liveUrl: 'https://furnistore-sepia.vercel.app/',
 
     problem:
@@ -235,6 +235,36 @@ const projects: Record<string, Project> = {
 
     gallery: [
       '/images/projects/furnistore/furnistore.png',
+    ],
+  },
+  hypekicksweb: {
+    title: 'HypeKicks',
+    category: 'Website',
+    subtitle: 'A Bold E-Commerce Experience for Sneaker Enthusiasts',
+    description:
+      'HypeKicks is a modern sneaker e-commerce website concept designed to showcase sneakers through a bold visual identity and an engaging shopping experience. The interface combines strong typography, dynamic product imagery, and a structured layout to create a digital experience that feels energetic while remaining easy to navigate.',
+    image: '/images/portfolio/hypekicks.png',
+    year: '2025',
+    role: 'UI/UX Designer & Frontend Developer',
+    tools: ['VScode', 'Nuxt', 'Tailwind CSS'],
+	  liveUrl: 'https://hype-kicks-lyart.vercel.app/',
+
+    problem:
+      'Sneaker websites need to do more than simply display products. They need to create a strong visual identity while making it easy for users to discover, compare, and explore products.',
+
+    solution:
+      'I created a bold and visually-driven interface that puts the products at the center of the experience. Clear navigation, structured product sections, strong typography, and carefully designed interactions help users explore the collection while maintaining the energetic character of HypeKicks.',
+
+    process: [
+      'Research',
+      'Information Architecture',
+      'Wireframing',
+      'UI Design',
+      'Frontend Development',
+    ],
+
+    gallery: [
+      '/images/projects/hypekicks/hypekicks.png',
     ],
   },
 }

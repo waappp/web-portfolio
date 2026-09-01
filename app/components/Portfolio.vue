@@ -36,7 +36,15 @@ const projects = [
     image: '/images/portfolio/furnistore.png',
     slug: 'furnistoreweb',
   },
-]
+  {
+   title: 'HypeKicks Website',
+    category: 'Website',
+    description:
+      'A bold and modern sneaker e-commerce experience built for sneaker enthusiasts.',
+    image: '/images/portfolio/hypekicks.png',
+    slug: 'hypekicksweb',
+  },
+] 
 
 const filteredProjects = computed(() => {
   if (activeCategory.value === 'All') {
