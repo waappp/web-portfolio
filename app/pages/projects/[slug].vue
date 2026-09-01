@@ -243,7 +243,7 @@ const projects: Record<string, Project> = {
     subtitle: 'A Bold E-Commerce Experience for Sneaker Enthusiasts',
     description:
       'HypeKicks is a modern sneaker e-commerce website concept designed to showcase sneakers through a bold visual identity and an engaging shopping experience. The interface combines strong typography, dynamic product imagery, and a structured layout to create a digital experience that feels energetic while remaining easy to navigate.',
-    image: '/images/portfolio/hypekicks.png',
+    image: '/images/portfolio/shoes.png',
     year: '2025',
     role: 'UI/UX Designer & Frontend Developer',
     tools: ['VScode', 'Nuxt', 'Tailwind CSS'],
