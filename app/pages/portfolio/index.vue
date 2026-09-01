@@ -89,7 +89,7 @@ const projects: Project[] = [
     category: 'Website',
     description:
       'A warm, product-led storefront for browsing footwear with ease.',
-    image: '/images/portfolio/hypekicks.png',
+    image: '/images/portfolio/shoes.png',
     slug: 'hypekicksweb',
     tools: ['Nuxt', 'Tailwind CSS'],
   }
