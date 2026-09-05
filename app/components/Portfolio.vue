@@ -41,7 +41,7 @@ const projects = [
     category: 'Website',
     description:
       'A bold and modern sneaker e-commerce experience built for sneaker enthusiasts.',
-    image: '/images/portfolio/hypekicks.png',
+    image: '/images/portfolio/shoes.png',
     slug: 'hypekicksweb',
   },
 ] 
@@ -64,9 +64,6 @@ const filteredProjects = computed(() => {
   >
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
 
-      <!-- ========================= -->
-      <!-- HEADER -->
-      <!-- ========================= -->
       <div class="max-w-3xl">
 
         <p
@@ -91,10 +88,6 @@ const filteredProjects = computed(() => {
 
       </div>
 
-
-      <!-- ========================= -->
-      <!-- CATEGORY BUTTON -->
-      <!-- ========================= -->
       <div class="mt-8 flex flex-wrap gap-4">
 
         <button
@@ -126,9 +119,6 @@ const filteredProjects = computed(() => {
       </div>
 
 
-      <!-- ========================= -->
-      <!-- PROJECT GRID -->
-      <!-- ========================= -->
       <div
         class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3"
       >
@@ -139,7 +129,6 @@ const filteredProjects = computed(() => {
           class="group overflow-hidden rounded-2xl border border-white/5 bg-card transition-all duration-300 hover:-translate-y-2 hover:border-accent/30"
         >
 
-          <!-- Image -->
           <a
             v-if="project.url"
             :href="project.url"
@@ -172,8 +161,6 @@ const filteredProjects = computed(() => {
             </div>
           </NuxtLink>
 
-
-          <!-- Content -->
           <div class="p-5">
 
             <div class="flex items-center justify-between gap-3">
@@ -235,9 +222,6 @@ const filteredProjects = computed(() => {
       </div>
 
 
-      <!-- ========================= -->
-      <!-- VIEW MORE -->
-      <!-- ========================= -->
       <div class="mt-10 flex justify-center">
 
         <NuxtLink

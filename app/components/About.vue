@@ -7,24 +7,18 @@
       class="mx-auto grid w-full max-w-7xl items-center gap-12 px-6 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20 lg:px-8"
     >
 
-      <!-- ========================= -->
-      <!-- LEFT : PROFILE IMAGE -->
-      <!-- ========================= -->
       <div
         class="relative flex min-h-[400px] items-center justify-center pt-4 sm:min-h-[450px] sm:pt-2 lg:min-h-[500px] lg:pt-0"
       >
 
-        <!-- Decorative Circle -->
         <div
           class="absolute left-[10%] top-[8%] h-16 w-16 rounded-full bg-accent/10 sm:h-20 sm:w-20"
         ></div>
 
-        <!-- Green Shape -->
         <div
           class="absolute left-1/2 top-1/2 h-[270px] w-[320px] -translate-x-1/2 -translate-y-1/2 -rotate-6 rounded-[55%_45%_48%_52%] bg-gradient-to-br from-accent-light to-accent sm:h-[330px] sm:w-[390px] lg:h-[360px] lg:w-[430px]"
         ></div>
 
-        <!-- Profile -->
         <img
           src="/images/profile/wafa.png"
           alt="Hukama Niamul Wafa"
@@ -34,20 +28,14 @@
       </div>
 
 
-      <!-- ========================= -->
-      <!-- RIGHT : CONTENT -->
-      <!-- ========================= -->
       <div>
 
-
-        <!-- Title -->
         <h2
           class="mt-3 text-3xl font-semibold tracking-tight text-primary sm:text-4xl"
         >
           About Me
         </h2>
 
-        <!-- Subtitle -->
         <p
           class="mt-2 text-base text-primary sm:text-lg"
         >
@@ -55,7 +43,6 @@
         </p>
 
 
-        <!-- Paragraph 1 -->
         <p
           class="mt-7 text-sm leading-7 text-secondary sm:text-base"
         >
@@ -67,8 +54,6 @@
           turning ideas into meaningful digital experiences.
         </p>
 
-
-        <!-- Paragraph 2 -->
         <p
           class="mt-5 text-sm leading-7 text-secondary sm:text-base"
         >
@@ -87,8 +72,6 @@
           them to life through interactive and responsive code.
         </p>
 
-
-        <!-- Paragraph 3 -->
         <p
           class="mt-5 text-sm leading-7 text-secondary sm:text-base"
         >
@@ -98,8 +81,6 @@
           product is where good design meets thoughtful development.
         </p>
 
-
-        <!-- Closing -->
         <p
           class="mt-7 text-sm font-medium text-accent sm:text-base"
         >

@@ -3,7 +3,6 @@
 
     <div class="mx-auto max-w-7xl text-center">
 
-      <!-- CTA -->
       <div class="text-center">
 
         <h2
@@ -29,19 +28,15 @@
       </div>
 
 
-      <!-- Divider -->
       <div class="mt-16 border-t border-white/10"></div>
 
 
-      <!-- Footer Bottom -->
       <div class="flex flex-col items-center justify-center gap-6 py-8 md:flex-row md:justify-between">
 
-        <!-- Copyright -->
         <p class="text-sm text-gray-400">
           © 2026 Wafa. All rights reserved.
         </p>
 
-        <!-- Social Links -->
         <div class="flex items-center justify-center gap-3">
           <a
             href="https://github.com/waappp"
@@ -106,7 +101,6 @@
           </a>
         </div>
 
-        <!-- Signature -->
         <p class="text-xs text-gray-500 text-center md:text-right">
           Wafa. · UI/UX Designer × Frontend Developer
         </p>

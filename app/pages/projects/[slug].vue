@@ -290,16 +290,12 @@ if (!project.value) {
 
     <Navbar />
 
-    <!-- ========================= -->
-    <!-- PROJECT HERO -->
-    <!-- ========================= -->
 
     <section
       class="px-6 pb-16 pt-36 lg:px-8 lg:pb-20"
     >
       <div class="mx-auto max-w-7xl">
 
-        <!-- Back -->
         <NuxtLink
           to="/portfolio"
           class="group inline-flex items-center gap-2 text-sm text-secondary transition-colors hover:text-accent"
@@ -314,7 +310,6 @@ if (!project.value) {
         </NuxtLink>
 
 
-        <!-- Category -->
 
         <p
           class="mt-12 text-sm font-medium uppercase tracking-[0.25em] text-accent"
@@ -323,7 +318,6 @@ if (!project.value) {
         </p>
 
 
-        <!-- Title -->
 
         <h1
           class="mt-4 max-w-4xl text-4xl font-semibold tracking-tight text-primary sm:text-5xl lg:text-7xl"
@@ -332,7 +326,6 @@ if (!project.value) {
         </h1>
 
 
-        <!-- Subtitle -->
 
         <p
           class="mt-5 max-w-2xl text-base leading-7 text-secondary sm:text-lg"
@@ -341,7 +334,6 @@ if (!project.value) {
         </p>
 
 
-        <!-- Project Info -->
 
         <div
           class="mt-8 flex flex-wrap gap-x-10 gap-y-5"
@@ -409,10 +401,6 @@ if (!project.value) {
     </section>
 
 
-    <!-- ========================= -->
-    <!-- COVER IMAGE -->
-    <!-- ========================= -->
-
     <section class="px-6 lg:px-8">
       <div class="mx-auto max-w-7xl">
 
@@ -429,10 +417,6 @@ if (!project.value) {
       </div>
     </section>
 
-
-    <!-- ========================= -->
-    <!-- OVERVIEW -->
-    <!-- ========================= -->
 
     <section class="px-6 py-20 lg:px-8 lg:py-28">
       <div
@@ -466,16 +450,12 @@ if (!project.value) {
     </section>
 
 
-    <!-- ========================= -->
-    <!-- PROBLEM & SOLUTION -->
-    <!-- ========================= -->
 
     <section class="bg-section px-6 py-20 lg:px-8 lg:py-28">
       <div
         class="mx-auto grid max-w-5xl gap-12 lg:grid-cols-2"
       >
 
-        <!-- Problem -->
 
         <div>
           <p
@@ -498,7 +478,6 @@ if (!project.value) {
         </div>
 
 
-        <!-- Solution -->
 
         <div>
           <p
@@ -523,10 +502,6 @@ if (!project.value) {
       </div>
     </section>
 
-
-    <!-- ========================= -->
-    <!-- DESIGN PROCESS -->
-    <!-- ========================= -->
 
     <section class="px-6 py-20 lg:px-8 lg:py-28">
       <div class="mx-auto max-w-5xl">
@@ -578,10 +553,6 @@ if (!project.value) {
     </section>
 
 
-    <!-- ========================= -->
-    <!-- PROJECT GALLERY -->
-    <!-- ========================= -->
-
     <section class="px-6 pb-20 lg:px-8 lg:pb-28">
       <div class="mx-auto max-w-7xl">
 
@@ -620,9 +591,6 @@ if (!project.value) {
     </section>
 
 
-    <!-- ========================= -->
-    <!-- BACK TO PORTFOLIO -->
-    <!-- ========================= -->
 
     <section class="px-6 pb-24 lg:px-8">
       <div class="mx-auto max-w-5xl text-center">

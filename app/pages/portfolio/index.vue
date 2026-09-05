@@ -111,9 +111,6 @@ const filteredProjects = computed(() => {
 
     <Navbar />
 
-    <!-- ========================= -->
-    <!-- PORTFOLIO HERO -->
-    <!-- ========================= -->
 
     <section class="px-6 pb-16 pt-36 lg:px-8">
       <div class="mx-auto max-w-7xl">
@@ -141,10 +138,6 @@ const filteredProjects = computed(() => {
     </section>
 
 
-    <!-- ========================= -->
-    <!-- FILTER -->
-    <!-- ========================= -->
-
     <section class="px-6 pb-8 lg:px-8">
       <div class="mx-auto flex max-w-7xl flex-wrap gap-3">
 
@@ -167,10 +160,6 @@ const filteredProjects = computed(() => {
     </section>
 
 
-    <!-- ========================= -->
-    <!-- PROJECTS -->
-    <!-- ========================= -->
-
     <section class="px-6 pb-24 lg:px-8">
       <div
         class="mx-auto grid max-w-7xl gap-7 md:grid-cols-2 lg:grid-cols-3"
@@ -181,8 +170,6 @@ const filteredProjects = computed(() => {
           :key="project.slug"
           class="group overflow-hidden rounded-2xl border border-white/5 bg-card transition-all duration-500 hover:-translate-y-2 hover:border-accent/30"
         >
-
-          <!-- Image -->
 
           <NuxtLink
             :to="`/projects/${project.slug}`"
@@ -200,7 +187,6 @@ const filteredProjects = computed(() => {
           </NuxtLink>
 
 
-          <!-- Content -->
 
           <div class="p-6">
 
@@ -230,8 +216,6 @@ const filteredProjects = computed(() => {
             </p>
 
 
-            <!-- Tools -->
-
             <div class="mt-5 flex flex-wrap gap-2">
 
               <span
@@ -243,9 +227,6 @@ const filteredProjects = computed(() => {
               </span>
 
             </div>
-
-
-            <!-- Link -->
 
             <NuxtLink
               :to="`/projects/${project.slug}`"
